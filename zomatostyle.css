@@ -1,0 +1,990 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.nav{
+  position: absolute;
+ top: 10px;
+ right: 300px;
+padding-left: 20%;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 100;
+  
+ }
+ .nav ul{
+  list-style: none;
+  display: flex;
+ 
+ }
+ .nav ul li{
+  padding-left: 30px;
+  margin-right: 5px;
+
+ }
+ .nav li a{
+  color: #ffffff;
+  text-decoration: none;
+ }
+.mainimg{
+     width: 100%;
+     height: 570px;
+     box-sizing: inherit;
+     position: relative;
+     
+}
+.head2{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  
+}
+.text{
+    font-size: 35px;
+    font-family: Okra, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-weight:500;
+    
+}
+.logo{
+    width: 280px;
+    padding-left: 20%;
+}
+.para{
+  font-family: Okra, Helvetica, sans-serif;
+}
+.heading{
+  text-align: center;
+  font-weight: 50;
+  font-size: 40px;
+  color: rgb(28, 28, 28);
+  letter-spacing: 1px;
+}
+.flag{
+  width: 3%;
+  padding-top: 2%;
+}
+.paragraph{
+  text-align: center;
+  margin: 0px;
+  max-width: 90rem;
+  letter-spacing: 1px;
+  
+  line-height: 150%;
+  color: rgb(105, 105, 105);
+  font-family: Okra, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.button{
+ padding-left: 10%;
+ padding-top: 5%;
+
+
+}
+.agra{
+  width: 350px;
+  height: 65px;
+  padding-left: 1px;
+  margin: 20px;
+  font-size: 20px;
+  border: 1px solid rgb(232, 232, 232);
+  cursor:pointer;
+  align-items: center;
+  font-family: Okra, Helvetica, sans-serif;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+ box-shadow: gray;
+
+}
+.agra a{
+  text-decoration: none;
+  color: black;
+}
+.ahmedabad{
+  width: 350px;
+  height: 65px;
+  padding-left: 1px;
+  margin: 20px;
+  padding-left: 1%;
+  font-size: 20px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  font-family: Okra, Helvetica, sans-serif;
+  background: rgb(255, 255, 255);
+  font-weight: 300;
+}
+.ajmer{
+  width: 350px;
+  height: 65px;
+  padding-left: 1px;
+  margin: 20px;
+  padding-left: 0%;
+  font-size: 20px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  font-family: Okra, Helvetica, sans-serif;
+}
+.Alapuzha{
+  width: 350px;
+  font-size: 20px;
+  height: 65px;
+  margin: 20px;  
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  font-family: Okra, Helvetica, sans-serif;
+}
+.Allahabad{
+  width: 350px;
+  font-size: 20px;
+  height: 65px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+}
+.Amravati{
+  width: 350px;
+  font-size: 20px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  height: 65px;
+  margin: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+}
+.Amristar{
+  width: 350px;
+  font-size: 20px;
+  height: 65px;
+  padding-left: 1px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin: 20px;
+  padding-left: 0%;
+  font-family: Okra, Helvetica, sans-serif;
+}
+.Auragabad{
+  width: 350px;
+  font-size: 20px;
+  height: 65px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin: 20px;  
+  font-family: Okra, Helvetica, sans-serif;
+}
+.Bengaluru{
+  width: 350px;
+  font-size: 20px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  height: 65px;
+  margin: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+}
+.Bhopal{
+  width: 350px;
+  height: 65px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+}
+.Bhubaneswar{
+  width: 350px;
+  height: 65px;
+  font-size: 20px;
+  margin: 20px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  font-family: Okra, Helvetica, sans-serif;
+}
+.Amravati{
+  width: 350px;
+  height: 65px;
+  margin: 20px;
+  font-size: 20px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  font-family: Okra, Helvetica, sans-serif;
+}
+.Chandigarh{
+  width: 350px;
+  height: 65px;
+  padding-left: 1px;
+  margin: 20px;
+  padding-left: 0%;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+}
+.Chennai{
+  width: 350px;
+  height: 65px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  font-family: Okra, Helvetica, sans-serif;
+  margin: 20px;  
+  font-size: 20px;
+}
+.Coimbatore{
+  width: 350px;
+  height: 65px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  font-family: Okra, Helvetica, sans-serif;
+  margin: 20px;
+  font-size: 20px;
+}
+.Cuttack{
+  width: 350px;
+  height: 65px;
+  margin: 20px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+}
+ .Darjeeling{
+  width: 350px;
+  height: 65px;
+  margin: 20px;
+  font-size: 20px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  font-family: Okra, Helvetica, sans-serif
+}
+.Dehradun{
+  width: 350px;
+  height: 65px;
+  font-size: 20px;
+  margin: 20px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  font-family: Okra, Helvetica, sans-serif;
+}
+.Delhi-NRC{
+  width: 350px;
+  height: 65px;
+  padding-left: 1px;
+  margin: 20px;
+  padding-left: 0%;
+  font-size: 20px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  font-family: Okra, Helvetica, sans-serif;
+}
+.Dharmashala{
+  width: 350px;
+  height: 65px;
+  margin: 20px;  
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif
+}
+.Gangtok{
+  width: 350px;
+  height: 65px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin: 20px;
+  font-size: 20px;
+ font-family: Okra, Helvetica, sans-serif;
+}
+.Goa{
+  width: 350px;
+  height: 65px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  
+}
+.countries{
+  padding-left: 12%;
+  font-size: 25px;
+  font-family: Okra, Helvetica, sans-serif;
+  color: black;
+  font-weight: 400;
+}
+.all-countries{
+  padding-left: 10%;
+ 
+}
+.alltext{
+  font-weight: 400;
+  font-family: Okra, Helvetica, sans-serif;
+}
+
+.india{
+  width: 350px;
+  height:70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align:left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.india:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.australia{
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.australia:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.brasil{
+  width: 350px;
+  height:70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.brasil:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.canada{
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+ text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.canada:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.chile{
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.chile:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.czech{
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.czech:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.indonesia{
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.indonesia:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.ireland{
+    width: 350px;
+    height: 70px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    border: 1px solid rgb(232, 232, 232);
+    cursor: pointer;
+    text-align: left;
+    border-radius: 0.8rem;
+    background: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding-left: 25px;
+  border-radius: 7px;
+}
+.ireland:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.italy{
+  width: 350px;
+    height: 70px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    border: 1px solid rgb(232, 232, 232);
+    cursor: pointer;
+    text-align: left;
+    border-radius: 0.8rem;
+    background: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding-left: 25px;
+  border-radius: 7px;
+}
+.italy:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.lebanon{
+  width: 350px;
+    height: 70px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    border: 1px solid rgb(232, 232, 232);
+    cursor: pointer;
+    text-align: left;
+    border-radius: 0.8rem;
+    background: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding-left: 25px;
+  border-radius: 7px;
+}
+.lebanon:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.malaysia{
+  width: 350px;
+    height: 70px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    border: 1px solid rgb(232, 232, 232);
+    cursor: pointer;
+    text-align: left;
+    border-radius: 0.8rem;
+    background: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding-left: 25px;
+  border-radius: 7px;
+}
+.malaysia:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.new{
+  width: 350px;
+    height: 70px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    border: 1px solid rgb(232, 232, 232);
+    cursor: pointer;
+    text-align: left;
+    border-radius: 0.8rem;
+    background: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding-left: 25px;
+  border-radius: 7px;
+}
+.new:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.philippines{
+  width: 350px;
+  height:70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.philippines:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.poland{
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.poland:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.portugal{
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.portugal:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.qatar{
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.qatar:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.singapore{
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.singapore:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.slovakia{
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.slovakia:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.south{
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.south:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.sri{
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+}
+.sri:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.turkey{
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Okra, Helvetica, sans-serif;
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  text-align: left;
+ 
+  background: rgb(255, 255, 255);
+  margin-top: 5px;
+  padding-left: 25px;
+  border-radius: 7px;
+
+}
+.turkey:hover{
+  box-shadow: 0 4px 6px 0 rgb(242, 242, 242),0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.zomato{
+  padding-left: 12%;
+  padding-top: 5%;
+  width: 9%;
+}
+.selection{
+  float: right;
+  padding-top: 4%;
+  
+}
+.con{
+  width: 100px;
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border: 1px solid rgb(181, 181, 181);
+  font-family: Okra, Helvetica, sans-serif;
+}
+.lag{
+  width: 120px;
+  height: 40px;
+  margin-right: 210px;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-align: center;
+  border: 1px solid rgb(181, 181, 181);
+  font-family: Okra, Helvetica, sans-serif;
+}
+.about{
+  padding-left: 12%;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding-top: 0%;
+ float: left;
+  
+}
+.abouthead{
+  font-family: Okra, Helvetica, sans-serif;
+  font-weight: 500;
+  color: black;
+  padding-top: 3%;
+  font-size: 15px;
+}
+.about ul{
+  font-family: Okra, Helvetica, sans-serif;
+  list-style: none;
+  padding-left: 0%;
+  line-height: 25px;
+  font-weight: inherit;
+  font-size: 14px;
+  color: rgb(105, 105, 105);
+}
+.zomav{
+  padding-left: 6%;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding-top: 0%;
+  float:left;
+}
+.zomaverse{
+  font-family: Okra, Helvetica, sans-serif;
+  font-weight: 500;
+  color: black;
+  padding-top: 3%;
+  font-size: 15px; 
+}
+.zomav ul{
+  font-family: Okra, Helvetica, sans-serif;
+  list-style: none;
+  padding-left: 0%;
+  line-height: 25px;
+  font-weight: inherit;
+  font-size: 14px;
+  color: rgb(105, 105, 105);
+}
+.for-restaurants{
+  padding-left: 8%;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding-top: 0%;
+  float: left;
+}
+.restaurants{
+  font-family: Okra, Helvetica, sans-serif;
+  font-weight: 500;
+  color: black;
+  padding-top: 3%;
+  font-size: 15px; 
+
+}
+.for-restaurants ul{
+  font-family: Okra, Helvetica, sans-serif;
+  list-style: none;
+  padding-left: 0%;
+  line-height: 25px;
+  font-weight: inherit;
+  font-size: 14px;
+  color: rgb(105, 105, 105);
+}
+.enterprises{
+  font-family: Okra, Helvetica, sans-serif;
+  font-weight: 500;
+  color: black;
+  padding-top: 4%;
+  font-size: 15px; 
+  padding-left: 0px;
+}
+.learn{
+  padding-left: 6%;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding-top: 0%;
+  float: left;
+}
+.learnmore{
+  font-family: Okra, Helvetica, sans-serif;
+  font-weight: 500;
+  color: black;
+  padding-top: 3%;
+  font-size: 15px; 
+}
+.learn ul{
+  font-family: Okra, Helvetica, sans-serif;
+  list-style: none;
+  padding-left: 0%;
+  line-height: 25px;
+  font-weight: inherit;
+  font-size: 14px;
+  color: rgb(105, 105, 105);
+}
+.social-links{
+ 
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding-top: 0%;
+  float: left;
+  font-family: Okra, Helvetica, sans-serif;
+}
+.social{
+  padding-left: 5%;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding-top: 0%;
+  float: left;
+}
+.linkedin{
+  width: 22px;
+  padding-top: 0px;
+}
+.social ul{
+  list-style: none;
+  padding-left: 0px;
+ 
+}.insta{
+  width: 22px;
+  padding-top: 0px;
+}
+.x{
+  width: 22px;
+  padding-top: 0px;
+}
+.yt{
+  width: 22px;
+  padding-top: 0px;
+}
+.fb{
+  width: 22px;
+  padding-top: 0px;
+}
+.appstore{
+padding-top: 15px;
+  width: 150px;
+}
+.playstore{
+  padding-top: 10px;
+  width: 150px;
+}
+.line{
+  width: 900px;
+  color: black;
+  padding-left: 12%;
+  padding-right: 12%;
+  
+}
+.final{
+  padding-top: 300px;
+}
+.lasttext{
+  padding-left: 11%;
+  letter-spacing: 0.5px;
+  font-family: Okra, Helvetica, sans-serif;
+  font-weight: 500;
+  color: rgb(105, 105, 105);
+}
